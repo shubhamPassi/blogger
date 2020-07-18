@@ -1,0 +1,34 @@
+
+/*font-family: Lexend*/
+@font-face{
+    font-family: Lexend;
+    src: url(../fonts/Lexend/LexendGiga-Regular.ttf);
+/*font-family: Roboto*/
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/*font-family: Nunito*/
+@font-face{
+    font-family: Nunito;
+    src: url(../fonts/Nunito/Nunito-Light.ttf);
+}
+
+/*font-family: Rubik*/
+@font-face{
+    font-family: Rubik;
+    src: url(../fonts/Rubik/Rubik-Light.ttf);
+}
+
+/*font-family: Quicksand*/
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+/*font-family: josefin_sans*/
+@font-face{
+    font-family: josefin_sans;
+    src: url(../fonts/Josefin_Sans/JosefinSans-LightItalic.ttf);
+}
