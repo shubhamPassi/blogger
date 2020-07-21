@@ -25,6 +25,7 @@ html,body {
     --Rubik:'Rubik', sans-serif;
     --Quicksand:'Quicksand', sans-serif;
     --Lexend:'Lexend', sans-serif;
+    --Abel:'Abel', sans-serif;
 }
 
 /*--------------------------------- GLOBAL CLASSES ----------------------------*/
@@ -64,6 +65,15 @@ button.btn{
     font-size: 1rem;
     font-family: var(--Roboto);
 }
+
+span{
+    font-family:var(--Abel);
+}
+
+.container {
+    margin: 0 5vw;
+}
+
 
 /*------------X-------------------- GLOBAL CLASSES --------------X-------------*/
 
@@ -108,17 +118,15 @@ button.btn{
 
 .nav .nav-items{
     display: flex;
-    margin:0 0 0 -40px;    
-
+    margin: 0 0 0 -40px;    
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
+    padding: 1.2rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-family:var(--Roboto);
 }
-
 .nav .nav-items .nav-link:hover{
     background-color:var(--midnight)
 }
@@ -184,6 +192,56 @@ main .site-title .btn:hover{
 
 /*------X---------- Site Title ---------X-------*/
 
+/*---------------- Blog Carousel ----------------*/
+
+main .blog{
+    background: url("../assets/Abract01.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+
+main .blog-content .btn-blog{
+    padding: 0.7rem 2rem;
+    background: var(--sky);
+    margin: 0.5rem;
+}
+
+main .blog-content span{
+    display: block;
+}
+
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.icon-right,.icon-left{
+    color:var(--text-gray);
+    font-size: 2rem;
+}
+/*--------X-------- Blog Carousel --------X--------*/
+
 /*---------X----------------------- Main Section -------------------X------------*/ 
 
 
@@ -196,8 +254,7 @@ main .site-title .btn:hover{
 
     .nav .toggle-collapse{
         display:initial;
-    }
-    
+    }   
 }
 
 /*    X     Viewport Less Than Or Equal To 765px     X     */
