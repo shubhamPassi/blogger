@@ -1,6 +1,6 @@
 const responsive = {
   0: {
-    items:1,
+    items: 1,
   },
   320: {
     items: 1,
@@ -10,7 +10,7 @@ const responsive = {
   },
   960: {
     items: 3,
-  }
+  },
 };
 
 $(document).ready(function () {
@@ -30,7 +30,7 @@ $(document).ready(function () {
     dots: false,
     nav: true,
     navText: [$(".owl-nav-prev"), $(".owl-nav-next")],
-    responsive: responsive
+    responsive: responsive,
   });
 
   $(".icon-left-right-ka-baap").css({ background: "transparent" });
@@ -61,4 +61,7 @@ $(document).ready(function () {
       1000
     );
   });
+
+  //Aos INstance
+  AOS.init();
 });
